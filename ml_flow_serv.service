@@ -1,0 +1,19 @@
+[Unit]
+Description=MLflow tracking server
+After=network.target 
+
+[Service]
+Restart=on-failure
+RestartSec=3
+WorkingDirectory=/home/gonzales06082002/MLOPS_Taller4/
+Environment=MLFLOW_S3_ENDPOINT_URL=http://10.43.101.149:9000
+Environment=AWS_ACCESS_KEY_ID=admin
+Environment=AWS_SECRET_ACCESS_KEY=password
+ExecStart= /home/gonzales06082002/mlflow_env/bin/python3 -m mlflow server \
+--backend-store-uri postgresql://mlflow:mlflowpassword@postgres:5432/mlflow \
+--default-artifact-root s3://mlflows3/artifacts \
+--host 0.0.0.0 \
+--serve-artifacts
+
+[Install]
+WantedBy=multi-user.target
