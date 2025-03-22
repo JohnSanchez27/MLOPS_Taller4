@@ -42,6 +42,8 @@ services:
       sh -c "jupyter notebook --ip 0.0.0.0 --port 8888 --allow-root --no-browser"
     networks:
       - some-network
+    volumes:
+    - train_models:/app/train_models
 
   mysql: # Servicio para MySQL.
     image: mysql:latest # Imagen de MySQL.
@@ -82,6 +84,7 @@ services:
 volumes:
   postgres-data: # Volumen para almacenar prcesamiento de datos
   mysql_data: # Volumen para almacenar los datos de MySQL
+  train_models: # Volumen para JupyterLab
 
 networks:
   some-network:
