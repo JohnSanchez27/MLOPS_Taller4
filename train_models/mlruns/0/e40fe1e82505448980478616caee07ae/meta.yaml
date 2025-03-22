@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/e40fe1e82505448980478616caee07ae/artifacts
+end_time: 1742687489869
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e40fe1e82505448980478616caee07ae
+run_name: marvelous-doe-519
+run_uuid: e40fe1e82505448980478616caee07ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687486860
+status: 3
+tags: []
+user_id: root

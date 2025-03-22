@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/c30c06477d2f41b5ae48b25896c1582f/artifacts
+end_time: 1742684854643
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c30c06477d2f41b5ae48b25896c1582f
+run_name: burly-hog-675
+run_uuid: c30c06477d2f41b5ae48b25896c1582f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742684852568
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/919658290ee249a1a65989190d5491c1/artifacts
+end_time: 1742682198112
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 919658290ee249a1a65989190d5491c1
+run_name: masked-flea-184
+run_uuid: 919658290ee249a1a65989190d5491c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742682195910
+status: 3
+tags: []
+user_id: root

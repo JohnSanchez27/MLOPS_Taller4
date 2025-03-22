@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/d4f35aea027c4ed6a9270f81d3f2ea02/artifacts
+end_time: 1742684887619
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d4f35aea027c4ed6a9270f81d3f2ea02
+run_name: bedecked-seal-139
+run_uuid: d4f35aea027c4ed6a9270f81d3f2ea02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742684885525
+status: 3
+tags: []
+user_id: root

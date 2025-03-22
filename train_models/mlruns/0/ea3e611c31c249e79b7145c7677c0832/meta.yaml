@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/ea3e611c31c249e79b7145c7677c0832/artifacts
+end_time: 1742684807323
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ea3e611c31c249e79b7145c7677c0832
+run_name: awesome-horse-118
+run_uuid: ea3e611c31c249e79b7145c7677c0832
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742684807303
+status: 4
+tags: []
+user_id: root

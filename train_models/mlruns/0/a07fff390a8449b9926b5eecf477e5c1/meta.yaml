@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/a07fff390a8449b9926b5eecf477e5c1/artifacts
+end_time: 1742684921883
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a07fff390a8449b9926b5eecf477e5c1
+run_name: nimble-panda-119
+run_uuid: a07fff390a8449b9926b5eecf477e5c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742684919772
+status: 3
+tags: []
+user_id: root

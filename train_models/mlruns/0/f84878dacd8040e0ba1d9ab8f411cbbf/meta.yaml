@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/f84878dacd8040e0ba1d9ab8f411cbbf/artifacts
+end_time: 1742686704785
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f84878dacd8040e0ba1d9ab8f411cbbf
+run_name: nervous-doe-420
+run_uuid: f84878dacd8040e0ba1d9ab8f411cbbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686702583
+status: 3
+tags: []
+user_id: root

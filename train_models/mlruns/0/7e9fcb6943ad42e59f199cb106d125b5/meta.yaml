@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/7e9fcb6943ad42e59f199cb106d125b5/artifacts
+end_time: 1742686859696
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e9fcb6943ad42e59f199cb106d125b5
+run_name: ambitious-jay-268
+run_uuid: 7e9fcb6943ad42e59f199cb106d125b5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686857405
+status: 3
+tags: []
+user_id: root

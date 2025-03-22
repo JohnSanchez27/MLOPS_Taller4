@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/1192a86c11094667bff147b12775d5fe/artifacts
+end_time: 1742682309754
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1192a86c11094667bff147b12775d5fe
+run_name: clean-fly-34
+run_uuid: 1192a86c11094667bff147b12775d5fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742682307670
+status: 3
+tags: []
+user_id: root

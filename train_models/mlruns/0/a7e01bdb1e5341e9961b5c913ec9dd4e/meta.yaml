@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/a7e01bdb1e5341e9961b5c913ec9dd4e/artifacts
+end_time: 1742685533409
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a7e01bdb1e5341e9961b5c913ec9dd4e
+run_name: handsome-hog-356
+run_uuid: a7e01bdb1e5341e9961b5c913ec9dd4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685531299
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/c5d4ad105a414b71a32ddb5141107008/artifacts
+end_time: 1742687133958
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c5d4ad105a414b71a32ddb5141107008
+run_name: delicate-dolphin-435
+run_uuid: c5d4ad105a414b71a32ddb5141107008
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687131762
+status: 3
+tags: []
+user_id: root

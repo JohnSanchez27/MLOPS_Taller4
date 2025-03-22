@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/28df35482ab1446dbe39436f05b46cdb/artifacts
+end_time: 1742686951196
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 28df35482ab1446dbe39436f05b46cdb
+run_name: unequaled-newt-618
+run_uuid: 28df35482ab1446dbe39436f05b46cdb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686949063
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/add28a2b78874a4ca49e7ab2ee46025e/artifacts
+end_time: 1742685234038
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: add28a2b78874a4ca49e7ab2ee46025e
+run_name: gifted-duck-127
+run_uuid: add28a2b78874a4ca49e7ab2ee46025e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685231884
+status: 3
+tags: []
+user_id: root

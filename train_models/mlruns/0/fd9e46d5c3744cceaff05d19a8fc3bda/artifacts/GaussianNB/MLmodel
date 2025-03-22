@@ -1,0 +1,17 @@
+artifact_path: GaussianNB
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.7.17
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.0.2
+mlflow_version: 1.30.1
+model_uuid: 739a5cd2b33b4378a482f4ce1c646704
+run_id: fd9e46d5c3744cceaff05d19a8fc3bda
+utc_time_created: '2025-03-22 23:08:29.054179'

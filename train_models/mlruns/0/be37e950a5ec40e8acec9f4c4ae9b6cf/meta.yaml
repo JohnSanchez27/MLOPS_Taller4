@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/be37e950a5ec40e8acec9f4c4ae9b6cf/artifacts
+end_time: 1742687144615
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be37e950a5ec40e8acec9f4c4ae9b6cf
+run_name: upset-gnu-560
+run_uuid: be37e950a5ec40e8acec9f4c4ae9b6cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687142468
+status: 3
+tags: []
+user_id: root

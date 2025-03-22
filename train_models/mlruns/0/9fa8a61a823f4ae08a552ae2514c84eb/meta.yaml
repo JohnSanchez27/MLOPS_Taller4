@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/9fa8a61a823f4ae08a552ae2514c84eb/artifacts
+end_time: 1742687136108
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9fa8a61a823f4ae08a552ae2514c84eb
+run_name: stylish-roo-167
+run_uuid: 9fa8a61a823f4ae08a552ae2514c84eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687133980
+status: 3
+tags: []
+user_id: root

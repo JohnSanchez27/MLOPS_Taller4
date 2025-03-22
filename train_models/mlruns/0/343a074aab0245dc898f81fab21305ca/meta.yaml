@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/343a074aab0245dc898f81fab21305ca/artifacts
+end_time: 1742687498393
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 343a074aab0245dc898f81fab21305ca
+run_name: exultant-mole-733
+run_uuid: 343a074aab0245dc898f81fab21305ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687496280
+status: 3
+tags: []
+user_id: root

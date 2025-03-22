@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/e0eb90103ee4422fa07d0560f0a38f94/artifacts
+end_time: 1742686827786
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e0eb90103ee4422fa07d0560f0a38f94
+run_name: receptive-yak-517
+run_uuid: e0eb90103ee4422fa07d0560f0a38f94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686825717
+status: 3
+tags: []
+user_id: root

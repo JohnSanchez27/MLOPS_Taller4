@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/0648a3f5a95e483cb828a3e106f6d151/artifacts
+end_time: 1742687569873
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0648a3f5a95e483cb828a3e106f6d151
+run_name: exultant-mule-429
+run_uuid: 0648a3f5a95e483cb828a3e106f6d151
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687567770
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/9b7e1dca3c084cd79f01be552a4a4edb/artifacts
+end_time: 1742685811991
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9b7e1dca3c084cd79f01be552a4a4edb
+run_name: carefree-kit-295
+run_uuid: 9b7e1dca3c084cd79f01be552a4a4edb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685809832
+status: 3
+tags: []
+user_id: root

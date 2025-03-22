@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/813c8caa600b440da8f9d0bc581eae1b/artifacts
+end_time: 1742686492526
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 813c8caa600b440da8f9d0bc581eae1b
+run_name: thoughtful-wolf-362
+run_uuid: 813c8caa600b440da8f9d0bc581eae1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686490277
+status: 3
+tags: []
+user_id: root

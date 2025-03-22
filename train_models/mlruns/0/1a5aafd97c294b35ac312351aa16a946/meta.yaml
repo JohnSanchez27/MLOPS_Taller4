@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/1a5aafd97c294b35ac312351aa16a946/artifacts
+end_time: 1742686849001
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1a5aafd97c294b35ac312351aa16a946
+run_name: merciful-mule-767
+run_uuid: 1a5aafd97c294b35ac312351aa16a946
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686846971
+status: 3
+tags: []
+user_id: root

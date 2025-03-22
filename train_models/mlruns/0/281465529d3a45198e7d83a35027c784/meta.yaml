@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/281465529d3a45198e7d83a35027c784/artifacts
+end_time: 1742687103679
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 281465529d3a45198e7d83a35027c784
+run_name: trusting-roo-384
+run_uuid: 281465529d3a45198e7d83a35027c784
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687101459
+status: 3
+tags: []
+user_id: root

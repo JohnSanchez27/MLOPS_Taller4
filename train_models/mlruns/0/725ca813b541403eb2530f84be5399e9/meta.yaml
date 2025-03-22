@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/725ca813b541403eb2530f84be5399e9/artifacts
+end_time: 1742686976825
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 725ca813b541403eb2530f84be5399e9
+run_name: likeable-foal-541
+run_uuid: 725ca813b541403eb2530f84be5399e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686974655
+status: 3
+tags: []
+user_id: root

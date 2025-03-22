@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/54378d69a5894e15acf2e87e1572f36d/artifacts
+end_time: 1742682223776
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 54378d69a5894e15acf2e87e1572f36d
+run_name: youthful-chimp-814
+run_uuid: 54378d69a5894e15acf2e87e1572f36d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742682221600
+status: 3
+tags: []
+user_id: root

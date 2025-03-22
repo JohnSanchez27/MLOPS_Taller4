@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/0501cc7143744defb7ab635a5b3dd8fb/artifacts
+end_time: 1742686955545
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0501cc7143744defb7ab635a5b3dd8fb
+run_name: gentle-fox-113
+run_uuid: 0501cc7143744defb7ab635a5b3dd8fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686953381
+status: 3
+tags: []
+user_id: root

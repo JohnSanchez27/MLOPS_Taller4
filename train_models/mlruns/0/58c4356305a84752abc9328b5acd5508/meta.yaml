@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/58c4356305a84752abc9328b5acd5508/artifacts
+end_time: 1742686488086
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 58c4356305a84752abc9328b5acd5508
+run_name: upset-croc-845
+run_uuid: 58c4356305a84752abc9328b5acd5508
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686485855
+status: 3
+tags: []
+user_id: root

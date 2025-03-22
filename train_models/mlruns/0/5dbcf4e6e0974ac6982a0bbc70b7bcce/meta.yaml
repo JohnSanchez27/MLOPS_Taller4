@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/5dbcf4e6e0974ac6982a0bbc70b7bcce/artifacts
+end_time: 1742685299508
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5dbcf4e6e0974ac6982a0bbc70b7bcce
+run_name: polite-snail-815
+run_uuid: 5dbcf4e6e0974ac6982a0bbc70b7bcce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685297411
+status: 3
+tags: []
+user_id: root

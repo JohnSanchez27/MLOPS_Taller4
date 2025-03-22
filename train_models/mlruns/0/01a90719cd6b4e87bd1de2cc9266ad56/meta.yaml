@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/01a90719cd6b4e87bd1de2cc9266ad56/artifacts
+end_time: 1742687151275
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 01a90719cd6b4e87bd1de2cc9266ad56
+run_name: unleashed-dove-805
+run_uuid: 01a90719cd6b4e87bd1de2cc9266ad56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687149054
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/199da79f972141ff98b26320231e0bfc/artifacts
+end_time: 1742684835277
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 199da79f972141ff98b26320231e0bfc
+run_name: rare-tern-148
+run_uuid: 199da79f972141ff98b26320231e0bfc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742684833074
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/df93b23aab844de09e6a49210b18c347/artifacts
+end_time: 1742687138229
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: df93b23aab844de09e6a49210b18c347
+run_name: clumsy-donkey-883
+run_uuid: df93b23aab844de09e6a49210b18c347
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687136114
+status: 3
+tags: []
+user_id: root

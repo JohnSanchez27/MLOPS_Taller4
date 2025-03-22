@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/9d4e21a4dd00427fb16289d11bce93ae/artifacts
+end_time: 1742685964262
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9d4e21a4dd00427fb16289d11bce93ae
+run_name: amazing-bear-365
+run_uuid: 9d4e21a4dd00427fb16289d11bce93ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685962041
+status: 3
+tags: []
+user_id: root

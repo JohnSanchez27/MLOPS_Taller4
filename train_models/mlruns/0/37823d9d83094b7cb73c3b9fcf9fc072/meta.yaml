@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/37823d9d83094b7cb73c3b9fcf9fc072/artifacts
+end_time: 1742687122877
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 37823d9d83094b7cb73c3b9fcf9fc072
+run_name: clumsy-dolphin-371
+run_uuid: 37823d9d83094b7cb73c3b9fcf9fc072
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687120836
+status: 3
+tags: []
+user_id: root

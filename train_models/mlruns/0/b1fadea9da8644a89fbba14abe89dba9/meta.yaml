@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/b1fadea9da8644a89fbba14abe89dba9/artifacts
+end_time: 1742686864218
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b1fadea9da8644a89fbba14abe89dba9
+run_name: sincere-crane-533
+run_uuid: b1fadea9da8644a89fbba14abe89dba9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686862055
+status: 3
+tags: []
+user_id: root

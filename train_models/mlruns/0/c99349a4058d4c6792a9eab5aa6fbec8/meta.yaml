@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/c99349a4058d4c6792a9eab5aa6fbec8/artifacts
+end_time: 1742686851031
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c99349a4058d4c6792a9eab5aa6fbec8
+run_name: beautiful-fly-168
+run_uuid: c99349a4058d4c6792a9eab5aa6fbec8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686849007
+status: 3
+tags: []
+user_id: root

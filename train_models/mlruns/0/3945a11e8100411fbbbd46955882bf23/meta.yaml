@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/3945a11e8100411fbbbd46955882bf23/artifacts
+end_time: 1742686978949
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3945a11e8100411fbbbd46955882bf23
+run_name: carefree-goose-13
+run_uuid: 3945a11e8100411fbbbd46955882bf23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686976832
+status: 3
+tags: []
+user_id: root

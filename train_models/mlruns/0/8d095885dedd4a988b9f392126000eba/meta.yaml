@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/8d095885dedd4a988b9f392126000eba/artifacts
+end_time: 1742684885519
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d095885dedd4a988b9f392126000eba
+run_name: valuable-wasp-981
+run_uuid: 8d095885dedd4a988b9f392126000eba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742684883432
+status: 3
+tags: []
+user_id: root

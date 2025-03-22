@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/fa0e78dfd91a427ba9f74ffcef38bffc/artifacts
+end_time: 1742685206256
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa0e78dfd91a427ba9f74ffcef38bffc
+run_name: persistent-auk-356
+run_uuid: fa0e78dfd91a427ba9f74ffcef38bffc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685204046
+status: 3
+tags: []
+user_id: root

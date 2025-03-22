@@ -7,19 +7,23 @@ User=estudiante
 Restart=on-failure
 RestartSec=3
 WorkingDirectory=/home/estudiante/MLOPS_Taller4/
+
+# Configuración de MinIO como almacenamiento de artefactos S3
 Environment=MLFLOW_S3_ENDPOINT_URL=http://10.43.101.179:9000
 Environment=AWS_ACCESS_KEY_ID=admin
 Environment=AWS_SECRET_ACCESS_KEY=password
-ExecStartPre=/usr/bin/python3 -c 'import sys; print(sys.executable)' >>>
-ExecStartPre=/usr/bin/python3 -c 'import sys; print(sys.path)' >> /home>
-ExecStart= /usr/bin/python3 -m mlflow server \
---backend-store-uri postgresql://mlflow:mlflowpassword@172.18.0.5:5432/>
- \
---default-artifact-root s3://mlflows3/artifacts \
---host 0.0.0.0 \
---serve-artifacts
-ExecStopPost=/bin/echo "MLflow process stopped" >> /home/estudiante/mlf>
 
+# Apuntar a la carpeta local donde se almacenan los experimentos
+Environment=MLFLOW_TRACKING_URI=file:///home/estudiante/MLOPS_Taller4/train_models/mlruns
+
+# Iniciar el servidor MLflow
+ExecStart=/usr/bin/python3 -m mlflow server \
+  --backend-store-uri "postgresql://mlflow:mlflowpassword@172.18.0.4:5432/mlflow" \
+  --default-artifact-root s3://mlflows3/artifacts \
+  --host 0.0.0.0 \
+  --serve-artifacts
+
+ExecStopPost=/bin/echo "MLflow process stopped" >> /home/estudiante/mlflow.log
 
 [Install]
 WantedBy=multi-user.target

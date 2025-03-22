@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/5e19c49063564077976aff8a57f9e683/artifacts
+end_time: 1742685974768
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5e19c49063564077976aff8a57f9e683
+run_name: shivering-crab-107
+run_uuid: 5e19c49063564077976aff8a57f9e683
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685972592
+status: 3
+tags: []
+user_id: root

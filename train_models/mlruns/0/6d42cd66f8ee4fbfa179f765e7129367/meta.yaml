@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/6d42cd66f8ee4fbfa179f765e7129367/artifacts
+end_time: 1742686690013
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d42cd66f8ee4fbfa179f765e7129367
+run_name: dazzling-lamb-594
+run_uuid: 6d42cd66f8ee4fbfa179f765e7129367
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686687932
+status: 3
+tags: []
+user_id: root

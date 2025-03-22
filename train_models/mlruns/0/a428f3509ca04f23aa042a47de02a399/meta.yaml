@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/a428f3509ca04f23aa042a47de02a399/artifacts
+end_time: 1742684906978
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a428f3509ca04f23aa042a47de02a399
+run_name: welcoming-hound-390
+run_uuid: a428f3509ca04f23aa042a47de02a399
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742684904942
+status: 3
+tags: []
+user_id: root

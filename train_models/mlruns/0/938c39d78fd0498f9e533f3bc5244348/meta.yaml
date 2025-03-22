@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/938c39d78fd0498f9e533f3bc5244348/artifacts
+end_time: 1742686477115
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 938c39d78fd0498f9e533f3bc5244348
+run_name: kindly-mouse-188
+run_uuid: 938c39d78fd0498f9e533f3bc5244348
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686475052
+status: 3
+tags: []
+user_id: root

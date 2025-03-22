@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/080a64c6d3134974838a60292bce413b/artifacts
+end_time: 1742686831969
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 080a64c6d3134974838a60292bce413b
+run_name: spiffy-rat-949
+run_uuid: 080a64c6d3134974838a60292bce413b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686829852
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/fd9e46d5c3744cceaff05d19a8fc3bda/artifacts
+end_time: 1742684911099
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd9e46d5c3744cceaff05d19a8fc3bda
+run_name: dashing-hawk-911
+run_uuid: fd9e46d5c3744cceaff05d19a8fc3bda
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742684909037
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/f3f920017ca74cf8a3ec7473863afd79/artifacts
+end_time: 1742682221595
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f3f920017ca74cf8a3ec7473863afd79
+run_name: incongruous-sow-300
+run_uuid: f3f920017ca74cf8a3ec7473863afd79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742682219423
+status: 3
+tags: []
+user_id: root

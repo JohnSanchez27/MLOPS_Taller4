@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/609f1da5e1c6419ea4b58a28665221fe/artifacts
+end_time: 1742687131756
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 609f1da5e1c6419ea4b58a28665221fe
+run_name: bouncy-stork-973
+run_uuid: 609f1da5e1c6419ea4b58a28665221fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687129519
+status: 3
+tags: []
+user_id: root

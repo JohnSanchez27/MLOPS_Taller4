@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/78595fc1031b46e895d2f3e3ba4b29fd/artifacts
+end_time: 1742682345531
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 78595fc1031b46e895d2f3e3ba4b29fd
+run_name: mysterious-ram-670
+run_uuid: 78595fc1031b46e895d2f3e3ba4b29fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742682343394
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/072ffeb1d44143d98de71621d41c147c/artifacts
+end_time: 1742685778002
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 072ffeb1d44143d98de71621d41c147c
+run_name: efficient-shad-299
+run_uuid: 072ffeb1d44143d98de71621d41c147c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685775901
+status: 3
+tags: []
+user_id: root

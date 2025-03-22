@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/068607b8884146b5a9ea65d0cc6f8373/artifacts
+end_time: 1742684889722
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 068607b8884146b5a9ea65d0cc6f8373
+run_name: legendary-koi-779
+run_uuid: 068607b8884146b5a9ea65d0cc6f8373
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742684887625
+status: 3
+tags: []
+user_id: root

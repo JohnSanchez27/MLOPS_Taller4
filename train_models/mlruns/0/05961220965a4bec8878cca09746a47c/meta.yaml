@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/05961220965a4bec8878cca09746a47c/artifacts
+end_time: 1742687567762
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 05961220965a4bec8878cca09746a47c
+run_name: capricious-ox-64
+run_uuid: 05961220965a4bec8878cca09746a47c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687565554
+status: 3
+tags: []
+user_id: root

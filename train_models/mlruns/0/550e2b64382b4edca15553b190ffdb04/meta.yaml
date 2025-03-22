@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/550e2b64382b4edca15553b190ffdb04/artifacts
+end_time: 1742682328855
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 550e2b64382b4edca15553b190ffdb04
+run_name: stylish-flea-919
+run_uuid: 550e2b64382b4edca15553b190ffdb04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742682326851
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/aa099832f980474487df4b7f1d131096/artifacts
+end_time: 1742687095031
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa099832f980474487df4b7f1d131096
+run_name: serious-carp-614
+run_uuid: aa099832f980474487df4b7f1d131096
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687092948
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/1bd6dd39e32a4462a3d752c2f4317713/artifacts
+end_time: 1742685312719
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1bd6dd39e32a4462a3d752c2f4317713
+run_name: sedate-mule-470
+run_uuid: 1bd6dd39e32a4462a3d752c2f4317713
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685310507
+status: 3
+tags: []
+user_id: root

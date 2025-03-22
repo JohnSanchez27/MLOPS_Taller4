@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/d0e423d814b446e1902676c133e2dc4d/artifacts
+end_time: 1742685321126
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d0e423d814b446e1902676c133e2dc4d
+run_name: monumental-skunk-392
+run_uuid: d0e423d814b446e1902676c133e2dc4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685319083
+status: 3
+tags: []
+user_id: root

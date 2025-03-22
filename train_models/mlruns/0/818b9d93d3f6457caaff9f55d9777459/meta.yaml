@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/818b9d93d3f6457caaff9f55d9777459/artifacts
+end_time: 1742684898615
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 818b9d93d3f6457caaff9f55d9777459
+run_name: tasteful-conch-510
+run_uuid: 818b9d93d3f6457caaff9f55d9777459
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742684896410
+status: 3
+tags: []
+user_id: root

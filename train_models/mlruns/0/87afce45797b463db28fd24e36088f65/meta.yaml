@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/87afce45797b463db28fd24e36088f65/artifacts
+end_time: 1742682318308
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 87afce45797b463db28fd24e36088f65
+run_name: dashing-dog-100
+run_uuid: 87afce45797b463db28fd24e36088f65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742682316163
+status: 3
+tags: []
+user_id: root

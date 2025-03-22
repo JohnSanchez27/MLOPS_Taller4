@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/9d6a8e8961734594973900e5a90b688c/artifacts
+end_time: 1742685217178
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9d6a8e8961734594973900e5a90b688c
+run_name: useful-foal-457
+run_uuid: 9d6a8e8961734594973900e5a90b688c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685215134
+status: 3
+tags: []
+user_id: root

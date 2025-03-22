@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/ad808aac2d024a81bb6df99a3a54fa4d/artifacts
+end_time: 1742685295296
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ad808aac2d024a81bb6df99a3a54fa4d
+run_name: redolent-hare-750
+run_uuid: ad808aac2d024a81bb6df99a3a54fa4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685293227
+status: 3
+tags: []
+user_id: root

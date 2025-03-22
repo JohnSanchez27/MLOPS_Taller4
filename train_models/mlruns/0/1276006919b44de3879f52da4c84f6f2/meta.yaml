@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/1276006919b44de3879f52da4c84f6f2/artifacts
+end_time: 1742682332903
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1276006919b44de3879f52da4c84f6f2
+run_name: monumental-elk-457
+run_uuid: 1276006919b44de3879f52da4c84f6f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742682330883
+status: 3
+tags: []
+user_id: root

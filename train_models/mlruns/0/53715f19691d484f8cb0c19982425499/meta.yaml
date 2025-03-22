@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/53715f19691d484f8cb0c19982425499/artifacts
+end_time: 1742685537741
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 53715f19691d484f8cb0c19982425499
+run_name: sassy-midge-755
+run_uuid: 53715f19691d484f8cb0c19982425499
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685535610
+status: 3
+tags: []
+user_id: root

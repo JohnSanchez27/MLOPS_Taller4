@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/c1e7ac3d0b334f0d96d8b1264cb94df8/artifacts
+end_time: 1742687157790
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1e7ac3d0b334f0d96d8b1264cb94df8
+run_name: bedecked-rook-700
+run_uuid: c1e7ac3d0b334f0d96d8b1264cb94df8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687155709
+status: 3
+tags: []
+user_id: root

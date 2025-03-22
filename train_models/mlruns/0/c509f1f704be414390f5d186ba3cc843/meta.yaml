@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/c509f1f704be414390f5d186ba3cc843/artifacts
+end_time: 1742682313943
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c509f1f704be414390f5d186ba3cc843
+run_name: victorious-vole-109
+run_uuid: c509f1f704be414390f5d186ba3cc843
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742682311867
+status: 3
+tags: []
+user_id: root

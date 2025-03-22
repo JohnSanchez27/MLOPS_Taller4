@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/09dc0624548448108f3125ea8045d017/artifacts
+end_time: 1742685979303
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 09dc0624548448108f3125ea8045d017
+run_name: unique-yak-693
+run_uuid: 09dc0624548448108f3125ea8045d017
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685977123
+status: 3
+tags: []
+user_id: root

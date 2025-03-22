@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/7db0c6730ece4f499a40d1b1e0aaebfa/artifacts
+end_time: 1742687550714
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7db0c6730ece4f499a40d1b1e0aaebfa
+run_name: thoughtful-wasp-118
+run_uuid: 7db0c6730ece4f499a40d1b1e0aaebfa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687548497
+status: 3
+tags: []
+user_id: root

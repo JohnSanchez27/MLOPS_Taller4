@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/69aa4110910e48cfa3f9f69d2eb77519/artifacts
+end_time: 1742687500607
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 69aa4110910e48cfa3f9f69d2eb77519
+run_name: glamorous-swan-23
+run_uuid: 69aa4110910e48cfa3f9f69d2eb77519
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687498400
+status: 3
+tags: []
+user_id: root

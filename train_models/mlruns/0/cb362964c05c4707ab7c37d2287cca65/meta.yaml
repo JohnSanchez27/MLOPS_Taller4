@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/cb362964c05c4707ab7c37d2287cca65/artifacts
+end_time: 1742687159863
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb362964c05c4707ab7c37d2287cca65
+run_name: judicious-auk-210
+run_uuid: cb362964c05c4707ab7c37d2287cca65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687157796
+status: 3
+tags: []
+user_id: root

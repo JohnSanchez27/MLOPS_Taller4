@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/bab786e54165403da6d2aa73832dd8ba/artifacts
+end_time: 1742685505808
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bab786e54165403da6d2aa73832dd8ba
+run_name: hilarious-quail-429
+run_uuid: bab786e54165403da6d2aa73832dd8ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685503715
+status: 3
+tags: []
+user_id: root

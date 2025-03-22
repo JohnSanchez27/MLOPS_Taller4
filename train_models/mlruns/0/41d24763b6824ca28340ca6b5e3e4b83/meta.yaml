@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/41d24763b6824ca28340ca6b5e3e4b83/artifacts
+end_time: 1742685801166
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41d24763b6824ca28340ca6b5e3e4b83
+run_name: flawless-trout-444
+run_uuid: 41d24763b6824ca28340ca6b5e3e4b83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685799164
+status: 3
+tags: []
+user_id: root

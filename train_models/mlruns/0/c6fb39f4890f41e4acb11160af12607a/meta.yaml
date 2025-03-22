@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/c6fb39f4890f41e4acb11160af12607a/artifacts
+end_time: 1742685507948
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c6fb39f4890f41e4acb11160af12607a
+run_name: serious-vole-917
+run_uuid: c6fb39f4890f41e4acb11160af12607a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685505814
+status: 3
+tags: []
+user_id: root

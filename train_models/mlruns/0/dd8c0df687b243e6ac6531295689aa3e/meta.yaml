@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/dd8c0df687b243e6ac6531295689aa3e/artifacts
+end_time: 1742686959913
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dd8c0df687b243e6ac6531295689aa3e
+run_name: painted-newt-78
+run_uuid: dd8c0df687b243e6ac6531295689aa3e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686957729
+status: 3
+tags: []
+user_id: root

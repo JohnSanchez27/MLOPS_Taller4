@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/186a543bfacf413d99e70d3cf4edcffa/artifacts
+end_time: 1742685539896
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 186a543bfacf413d99e70d3cf4edcffa
+run_name: industrious-hen-764
+run_uuid: 186a543bfacf413d99e70d3cf4edcffa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685537747
+status: 3
+tags: []
+user_id: root

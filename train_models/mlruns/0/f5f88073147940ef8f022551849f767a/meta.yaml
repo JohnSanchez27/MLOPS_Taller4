@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/f5f88073147940ef8f022551849f767a/artifacts
+end_time: 1742687552959
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f5f88073147940ef8f022551849f767a
+run_name: burly-lynx-724
+run_uuid: f5f88073147940ef8f022551849f767a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687550721
+status: 3
+tags: []
+user_id: root

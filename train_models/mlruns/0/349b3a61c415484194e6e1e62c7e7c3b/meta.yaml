@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/349b3a61c415484194e6e1e62c7e7c3b/artifacts
+end_time: 1742682217272
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 349b3a61c415484194e6e1e62c7e7c3b
+run_name: crawling-kit-584
+run_uuid: 349b3a61c415484194e6e1e62c7e7c3b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742682215134
+status: 3
+tags: []
+user_id: root

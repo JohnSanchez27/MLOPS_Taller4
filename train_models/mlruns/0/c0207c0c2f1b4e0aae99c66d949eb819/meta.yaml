@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/c0207c0c2f1b4e0aae99c66d949eb819/artifacts
+end_time: 1742687524333
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c0207c0c2f1b4e0aae99c66d949eb819
+run_name: bouncy-fox-786
+run_uuid: c0207c0c2f1b4e0aae99c66d949eb819
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687522235
+status: 3
+tags: []
+user_id: root

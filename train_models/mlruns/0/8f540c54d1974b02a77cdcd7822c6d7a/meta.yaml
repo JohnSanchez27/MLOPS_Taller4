@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/8f540c54d1974b02a77cdcd7822c6d7a/artifacts
+end_time: 1742685210666
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8f540c54d1974b02a77cdcd7822c6d7a
+run_name: orderly-shad-814
+run_uuid: 8f540c54d1974b02a77cdcd7822c6d7a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685208467
+status: 3
+tags: []
+user_id: root

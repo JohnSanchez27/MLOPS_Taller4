@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/ad8bbe89912c40b0a6c90e6415e5ff34/artifacts
+end_time: 1742687163985
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ad8bbe89912c40b0a6c90e6415e5ff34
+run_name: thoughtful-fowl-871
+run_uuid: ad8bbe89912c40b0a6c90e6415e5ff34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687161925
+status: 3
+tags: []
+user_id: root

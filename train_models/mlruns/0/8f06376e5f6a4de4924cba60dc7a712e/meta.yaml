@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/8f06376e5f6a4de4924cba60dc7a712e/artifacts
+end_time: 1742686709173
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8f06376e5f6a4de4924cba60dc7a712e
+run_name: nervous-toad-260
+run_uuid: 8f06376e5f6a4de4924cba60dc7a712e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686706918
+status: 3
+tags: []
+user_id: root

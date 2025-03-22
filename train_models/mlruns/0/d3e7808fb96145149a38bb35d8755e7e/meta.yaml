@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/d3e7808fb96145149a38bb35d8755e7e/artifacts
+end_time: 1742685968453
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3e7808fb96145149a38bb35d8755e7e
+run_name: upset-panda-249
+run_uuid: d3e7808fb96145149a38bb35d8755e7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685966371
+status: 3
+tags: []
+user_id: root

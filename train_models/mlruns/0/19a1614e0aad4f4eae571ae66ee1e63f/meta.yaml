@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/19a1614e0aad4f4eae571ae66ee1e63f/artifacts
+end_time: 1742686674841
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 19a1614e0aad4f4eae571ae66ee1e63f
+run_name: gentle-sow-954
+run_uuid: 19a1614e0aad4f4eae571ae66ee1e63f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686672750
+status: 3
+tags: []
+user_id: root

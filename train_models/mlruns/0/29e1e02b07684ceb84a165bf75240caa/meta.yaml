@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/29e1e02b07684ceb84a165bf75240caa/artifacts
+end_time: 1742686946949
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29e1e02b07684ceb84a165bf75240caa
+run_name: sedate-sloth-637
+run_uuid: 29e1e02b07684ceb84a165bf75240caa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742686944809
+status: 3
+tags: []
+user_id: root

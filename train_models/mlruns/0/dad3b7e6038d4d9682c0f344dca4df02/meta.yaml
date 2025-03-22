@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/dad3b7e6038d4d9682c0f344dca4df02/artifacts
+end_time: 1742685953005
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dad3b7e6038d4d9682c0f344dca4df02
+run_name: casual-shrew-12
+run_uuid: dad3b7e6038d4d9682c0f344dca4df02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685950806
+status: 3
+tags: []
+user_id: root

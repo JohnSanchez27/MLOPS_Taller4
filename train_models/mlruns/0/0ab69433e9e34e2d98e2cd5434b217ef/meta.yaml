@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/0ab69433e9e34e2d98e2cd5434b217ef/artifacts
+end_time: 1742685308159
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ab69433e9e34e2d98e2cd5434b217ef
+run_name: merciful-quail-924
+run_uuid: 0ab69433e9e34e2d98e2cd5434b217ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685305876
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/ef129122518e49bfbcf642dd3472b38a/artifacts
+end_time: 1742685317038
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef129122518e49bfbcf642dd3472b38a
+run_name: dapper-foal-586
+run_uuid: ef129122518e49bfbcf642dd3472b38a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685314986
+status: 3
+tags: []
+user_id: root

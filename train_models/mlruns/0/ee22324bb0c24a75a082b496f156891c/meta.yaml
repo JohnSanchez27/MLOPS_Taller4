@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/ee22324bb0c24a75a082b496f156891c/artifacts
+end_time: 1742685319077
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee22324bb0c24a75a082b496f156891c
+run_name: gaudy-hawk-622
+run_uuid: ee22324bb0c24a75a082b496f156891c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742685317043
+status: 3
+tags: []
+user_id: root

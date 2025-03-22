@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/a4b7f18cd3d94c0692adb812a7d7fb1b/artifacts
+end_time: 1742687105906
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a4b7f18cd3d94c0692adb812a7d7fb1b
+run_name: orderly-donkey-759
+run_uuid: a4b7f18cd3d94c0692adb812a7d7fb1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687103685
+status: 3
+tags: []
+user_id: root

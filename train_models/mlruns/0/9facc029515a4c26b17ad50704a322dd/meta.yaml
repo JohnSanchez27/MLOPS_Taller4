@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/9facc029515a4c26b17ad50704a322dd/artifacts
+end_time: 1742687530978
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9facc029515a4c26b17ad50704a322dd
+run_name: powerful-boar-190
+run_uuid: 9facc029515a4c26b17ad50704a322dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742687528821
+status: 3
+tags: []
+user_id: root
