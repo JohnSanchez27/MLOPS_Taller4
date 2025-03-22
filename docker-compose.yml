@@ -43,7 +43,7 @@ services:
     networks:
       - some-network
     volumes:
-    - train_models:/app/train_models
+      - ./notebooks:/home/jovyan/work
 
   mysql: # Servicio para MySQL.
     image: mysql:latest # Imagen de MySQL.
@@ -84,7 +84,7 @@ services:
 volumes:
   postgres-data: # Volumen para almacenar prcesamiento de datos
   mysql_data: # Volumen para almacenar los datos de MySQL
-  train_models: # Volumen para JupyterLab
+  notebooks: # Volumen para JupyterLab
 
 networks:
   some-network:
