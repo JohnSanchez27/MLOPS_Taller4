@@ -39,11 +39,11 @@ services:
  
     restart: always
     command: >
-      sh -c "jupyter notebook --ip 0.0.0.0 --port 8888 --allow-root --no-browser"
+      sh -c "jupyter notebook --notebook-dir=/home/jovyan/work --ip 0.0.0.0 --port 8888 --allow-root --no-browser"
     networks:
       - some-network
     volumes:
-      - ./notebooks:/home/jovyan/work
+    - ./train_models:/home/jovyan/work
 
   mysql: # Servicio para MySQL.
     image: mysql:latest # Imagen de MySQL.
@@ -84,7 +84,7 @@ services:
 volumes:
   postgres-data: # Volumen para almacenar prcesamiento de datos
   mysql_data: # Volumen para almacenar los datos de MySQL
-  notebooks: # Volumen para JupyterLab
+  train_models: # Volumen para almacenar los notebooks de Jupyter
 
 networks:
   some-network:
