@@ -1,30 +1,27 @@
 import os
-import joblib
+import mlflow
+import mlflow.sklearn
 import json
 
 def cargar_modelos():
-    print("Ingresando a la carga de modelos...")
-    modelos = {}
-    try:
-        # Obtiene el directorio donde *está* este script (cargar_modelos.py)
-        models_dir = os.path.dirname(os.path.abspath(__file__))
-        print("Directorio del script:", models_dir)
-        
-        # Ruta del modelo
-        modelo_path = os.path.join(models_dir, "datos", "SVM_model.pkl")
-        print("Intentando cargar el modelo desde:", modelo_path)
+    print("Ingresando a la carga de modelos desde MLflow...")
 
-        # Cargar el modelo
-        modelos["modelo1"] = joblib.load(modelo_path)
+    try:
+        # Configuración del URI de seguimiento de MLflow
+        mlflow.set_tracking_uri("http://10.43.101.179:5000")  # Asegúrate de que esta URL apunte a tu servidor MLflow
         
-        print("Modelo cargado exitosamente.")
+        # Cargar el modelo desde MLflow (usando su nombre y la etiqueta de 'producción')
+        model_uri = "models:/production_model/Production"  # Reemplaza 'production_model' con el nombre de tu modelo
+        print(f"Intentando cargar el modelo de MLflow: {model_uri}")
+
+        # Cargar el modelo registrado
+        modelo1 = mlflow.pyfunc.load_model(model_uri)
+
+        # Hacer inferencia
+        print("Modelo cargado exitosamente desde MLflow.")
         
-       
-        
-        return modelos
-    except FileNotFoundError as e:
-        print(f"Error: No se encontró el archivo {modelo_path}. Detalles: {e}")
-        return None
+        return modelo1
     except Exception as e:
-        print(f"Error al cargar los modelos: {e}")
+        print(f"Error al cargar el modelo desde MLflow: {e}")
         return None
+
