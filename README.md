@@ -164,9 +164,8 @@ sudo systemctl stop ml_flow_serv.service
 
 Los servicios funcionan correctamente pero no logracmos realizar la inferencia del modelo desde el API, los experimentos se ejeuctan correctamente en **MLflow** y se con **MinIO** se almacenan los artefactos correctamente como se muestran en la siguientes iamgenes:
 
-Imagenes/MinIO.png
-
-Imagenes/mlflow.png
+![Descripción de MinIO](Imagenes/MinIO.png)
+![Descripción de MLflow](Imagenes/mlflow.png)
 
 ### Conclusión
 
