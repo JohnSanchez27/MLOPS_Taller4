@@ -55,15 +55,30 @@ A continuación se describe la estructura del repositorio:
 MLOPS_Taller4/
 │
 ├── app/                      # Código de la aplicación FastAPI
-├── train_models/             # Directorio para el código de entrenamiento de modelos
-│   ├── datos/                # Datos de entrada
-│   ├── mlruns/               # Directorio local donde se guardan los experimentos
-│   └── train_models.py       # Código principal para entrenamiento de modelos
+│   ├── cargar_modelos.py      # Script para cargar modelos
+│   ├── Dockerfile.app         # Dockerfile para la aplicación
+│   ├── main.py                # Código principal de la aplicación
+│   └── requirements.txt       # Dependencias específicas para la aplicación
 │
-├── docker-compose.yml        # Configuración de Docker Compose
-├── ml_flow_serv.service      # Archivo de configuración para el servicio de MLflow
-├── requirements.txt          # Dependencias de Python
-└── README.md                 # Documentación del repositorio
+├── Imagenes/                  # Carpeta de imágenes para documentación
+│   ├── MinIO.png              # Imagen de MinIO
+│   ├── mlflow.png             # Imagen de MLflow
+│
+├── minio_data/                # Almacenamiento de datos para MinIO
+│   └── README                 # Archivo para mantener la estructura en Git
+│
+├── train_models/              # Código para el entrenamiento de modelos
+│   ├── datos/                 # Datos de entrada
+│   │   ├── penguins_size.csv   # Archivo de datos de pingüinos
+│   ├── train.ipynb             # Notebook para entrenamiento de modelos
+│   ├── Dockerfile.app          # Dockerfile para el entrenamiento
+│   └── requirements.txt        # Dependencias para el entrenamiento
+│
+├── docker-compose.yml         # Configuración de Docker Compose
+├── ml_flow_serv.service       # Archivo de configuración para el servicio de MLflow
+├── requirements.txt           # Dependencias generales de Python
+└── README.md                  # Documentación del repositorio
+
 ```
 
 ### 2.1 **Explicación de los Servicios**
