@@ -162,32 +162,11 @@ sudo systemctl stop ml_flow_serv.service
 
 ## 4. **Problema Actual**
 
-A pesar de que la arquitectura de **MLflow**, **MinIO** y **PostgreSQL** parece estar configurada correctamente, actualmente estamos enfrentando un problema relacionado con la ubicación y el almacenamiento de los experimentos y artefactos:
+Los servicios funcionan correctamente pero no logracmos realizar la inferencia del modelo desde el API, los experimentos se ejeuctan correctamente en **MLflow** y se con **MinIO** se almacenan los artefactos correctamente como se muestran en la siguientes iamgenes:
 
-### 4.1 **Problema de Ubicación de los Experimentos**
+![alt text](mlflow.png)
 
-Los experimentos de **MLflow** se están guardando en el directorio local `train_models/mlruns`, en lugar del directorio global `mlruns` (dentro de la raíz del proyecto). Esto se debe a que **MLflow** está apuntando a `train_models/mlruns` debido a la configuración en el servicio o en el código de los notebooks.
-
-### 4.2 **Solución Propuesta**
-
-Se propuso la siguiente solución:
-
-1. **Modificar la configuración de `MLflow`** para que apunte al directorio correcto de experimentos:
-   - Configurar la variable de entorno `MLFLOW_TRACKING_URI` en el archivo de servicio **MLflow** (`ml_flow_serv.service`) para apuntar a `file:///home/estudiante/MLOPS_Taller4/mlruns`.
-
-2. **Verificar la conexión de **MLflow** con **MinIO** para almacenar los artefactos correctamente**:
-   - Asegurarse de que los artefactos se estén guardando en el bucket **MinIO** `mlflows3/artifacts` mediante la configuración correcta de `--default-artifact-root s3://mlflows3/artifacts`.
-
-3. **Posibles Consecuencias**:
-   - Aunque los experimentos previos ya no se moverán automáticamente, se pueden seguir utilizando las configuraciones actuales para registrar nuevos experimentos correctamente.
-   - Los artefactos existentes en **MinIO** seguirán estando disponibles en el bucket `mlflows3/artifacts`.
-
-### 4.3 **Próximos Pasos**
-
-- Verificar la correcta integración entre **MLflow** y **MinIO** para asegurar que los artefactos nuevos se registren correctamente en el bucket S3.
-- Asegurar que **MLflow** esté guardando tanto los experimentos como los artefactos en las ubicaciones correctas, ya sea localmente o en **MinIO**.
-
----
+![alt text](MinIO.png)
 
 ### Conclusión
 
