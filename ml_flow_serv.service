@@ -18,7 +18,7 @@ Environment=MLFLOW_TRACKING_URI=file:///home/estudiante/MLOPS_Taller4/train_mode
 
 # Iniciar el servidor MLflow
 ExecStart=/usr/bin/python3 -m mlflow server \
-  --backend-store-uri "postgresql://mlflow:mlflowpassword@172.18.0.4:5432/mlflow" \
+  --backend-store-uri "postgresql://mlflow:mlflowpassword@172.18.0.6:5432/mlflow" \
   --default-artifact-root s3://mlflows3/artifacts \
   --host 0.0.0.0 \
   --serve-artifacts
