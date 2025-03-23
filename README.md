@@ -1,88 +1,194 @@
-# Taller 4: Procesamiento de Datos y Entrenamiento de Modelos con MLFlow y MinIO
 
-## Descripción
-Este taller aborda el procesamiento de datos, la gestión de modelos de machine learning y la orquestación de tareas mediante Apache MLflow y MinIO. Se implementa una arquitectura basada en contenedores para facilitar la reproducibilidad y escalabilidad del flujo de trabajo.
+# Proyecto MLOPS_Taller4
 
-El objetivo principal es automatizar la carga, procesamiento y almacenamiento de datos para entrenar modelos de machine learning y gestionar su despliegue en un entorno controlado.
+## 1. **Uso del Proyecto**
 
-## Estructura del Proyecto
+Este proyecto es una implementación de un sistema MLOps utilizando **MLflow** para el seguimiento de experimentos, **MinIO** como almacenamiento de artefactos compatible con S3, y **PostgreSQL** como base de datos backend para **MLflow**.
 
-El proyecto está organizado en los siguientes directorios, cada uno con un propósito específico:
+### 1.1 **Requisitos previos**
 
-- **app/:** Contiene los scripts principales para la gestión de modelos y la ejecución de tareas dentro de la aplicación.
+Asegúrate de tener los siguientes requisitos previos instalados:
 
-- **dags/:** Almacena los DAGs (Directed Acyclic Graphs) utilizados por Apache Airflow para la orquestación de tareas.
+- **Docker** y **Docker Compose** (si decides usar Docker para otros servicios).
+- **Python 3.x**.
+- **Git** (para clonar el repositorio).
+- **systemd** (para levantar el servicio `ml_flow_serv.service` de **MLflow**).
 
-- **datos/:** Incluye los datasets necesarios para el procesamiento y entrenamiento de modelos.
+### 1.2 **Iniciar los Servicios con Docker Compose**
 
-- **logs/:** Directorio para almacenar los registros de ejecución generados por los procesos.
+Para iniciar todos los servicios necesarios (MinIO, PostgreSQL y otros), simplemente ejecuta el siguiente comando desde la raíz del repositorio:
 
-- **minio_data/:** Espacio de almacenamiento para los datos gestionados mediante MinIO.
-
-- **train_models/:** Contiene los scripts y configuraciones necesarios para entrenar los modelos de machine learning.
-
-Archivos de configuración: Incluye docker-compose.yml, Dockerfile y archivos de requerimientos que definen el entorno del proyecto.
-
-```
-Taller_4/
-│-- app/
-│   │-- cargar_modelos.py
-│   │-- Dockerfile.app
-│   │-- main.py
-│   │-- requirements.txt
-│
-│-- dags/
-│   │-- carga_datos.py
-│   │-- elimina_datos.py
-│   │-- train.py
-│
-│-- datos/
-│   │-- penguins_lter.csv
-│
-│-- logs/
-│
-│-- minio_data/
-│
-│-- train_models/
-│   │-- Dockerfile.app
-│   │-- requirements.txt
-│   │-- train.ipynb
-│
-│-- docker-compose.yml
-│-- Dockerfile
-│-- README.md
-│-- requirements.txt
+```bash
+docker-compose up --build
 ```
 
-## Requisitos
-Antes de ejecutar el taller, asegúrate de tener instalados los siguientes requisitos:
+Este comando construirá las imágenes de Docker y levantará los servicios definidos en el archivo `docker-compose.yml`, incluyendo:
 
-- Docker y Docker Compose
-- Python 3.8+
-- Apache Airflow
-- Mlflow
-- MinIO (para almacenamiento de datos)
+- **MinIO** (como almacenamiento de artefactos S3).
+- **PostgreSQL** (como base de datos para MLflow).
+- Otros servicios como el servicio de **train_models**.
 
-## Configuración y Ejecución
+### 1.3 **Acceder a los Servicios**
 
-### 1. Clonar el repositorio
-```sh
-git clone https://github.com/JohnSanchez27/MLOPS_Taller4
-cd MLOps_Taller4
+Una vez que los servicios estén levantados, puedes acceder a los siguientes servicios:
+
+- **MinIO**: Navega a `http://127.0.0.1:9001` para acceder a la consola web de **MinIO** (usando las credenciales `admin` / `password`).
+- **MLflow**: Navega a `http://127.0.0.1:5000` para acceder a la interfaz de usuario de **MLflow** y ver los experimentos y modelos registrados.
+
+### 1.4 **Usar el Jupyter Notebook**
+
+Los modelos se entrenan utilizando los **Jupyter Notebooks** ubicados en el directorio `train_models`. Para acceder a los notebooks, navega a:
+
+```bash
+http://127.0.0.1:8888
 ```
 
-### 2. Construir y levantar los contenedores
-Ejecuta el siguiente comando para construir y levantar los servicios definidos en `docker-compose.yml`:
-```sh
-docker-compose up --build -d
-```
-Esto iniciará los contenedores de Airflow, MinIO y los servicios relacionados.
+Desde ahí podrás entrenar los modelos y registrar los resultados en **MLflow**.
 
-### 3. Acceder a Apache Airflow
-Abre un navegador y accede a la interfaz web de Airflow en:
+---
+
+## 2. **Estructura del Proyecto**
+
+A continuación se describe la estructura del repositorio:
+
 ```
-http:
+MLOPS_Taller4/
+│
+├── app/                      # Código de la aplicación FastAPI
+├── train_models/             # Directorio para el código de entrenamiento de modelos
+│   ├── datos/                # Datos de entrada
+│   ├── mlruns/               # Directorio local donde se guardan los experimentos
+│   └── train_models.py       # Código principal para entrenamiento de modelos
+│
+├── docker-compose.yml        # Configuración de Docker Compose
+├── ml_flow_serv.service      # Archivo de configuración para el servicio de MLflow
+├── requirements.txt          # Dependencias de Python
+└── README.md                 # Documentación del repositorio
 ```
-Las credenciales predeterminadas son:
-- Usuario: `airflow`
-- Contraseña: `airflow`
+
+### 2.1 **Explicación de los Servicios**
+
+1. **MinIO**:
+   - **MinIO** actúa como un almacenamiento S3 local para los artefactos de **MLflow**. Los modelos y otros artefactos (como archivos de datos) se almacenan en el bucket `mlflows3/artifacts`.
+   
+2. **PostgreSQL**:
+   - **PostgreSQL** se usa como el almacenamiento backend de **MLflow**. La base de datos `mlflow` es donde se guardan los metadatos de los experimentos (parámetros, métricas, etc.).
+
+3. **MLflow**:
+   - **MLflow** se utiliza para realizar el seguimiento de los experimentos, registrar los modelos y almacenarlos en **MinIO**.
+   - **MLflow** se levanta mediante el archivo `ml_flow_serv.service`, que es un servicio de **systemd** que inicia **MLflow** en el sistema.
+
+4. **train_models**:
+   - Contiene el código para entrenar los modelos utilizando **scikit-learn** y otros frameworks.
+   - Los experimentos y los artefactos se registran en **MLflow** y se almacenan en **MinIO**.
+
+---
+
+## 3. **Levantamiento de MLflow desde el servicio `.service`**
+
+En lugar de usar **Docker** para levantar el servicio de **MLflow**, hemos optado por levantarlo utilizando un archivo de servicio **systemd** llamado `ml_flow_serv.service`. Aquí te explicamos cómo levantar **MLflow** a partir de este archivo.
+
+### 3.1 **Configurar el archivo de servicio `ml_flow_serv.service`**
+
+El archivo `ml_flow_serv.service` se encuentra en la raíz del proyecto. Este archivo define cómo debe iniciarse **MLflow** como un servicio de sistema. Aquí está el archivo corregido:
+
+```ini
+[Unit]
+Description=MLflow tracking server
+After=network.target
+
+[Service]
+User=estudiante
+Restart=on-failure
+RestartSec=3
+WorkingDirectory=/home/estudiante/MLOPS_Taller4/
+
+# Configuración de MinIO como almacenamiento de artefactos S3
+Environment=MLFLOW_S3_ENDPOINT_URL=http://10.43.101.179:9000
+Environment=AWS_ACCESS_KEY_ID=admin
+Environment=AWS_SECRET_ACCESS_KEY=password
+
+# Apuntar a la carpeta local donde se almacenan los experimentos
+Environment=MLFLOW_TRACKING_URI=file:///home/estudiante/MLOPS_Taller4/train_models/mlruns
+
+# Iniciar el servidor MLflow
+ExecStart=/usr/bin/python3 -m mlflow server   --backend-store-uri "postgresql://mlflow:mlflowpassword@172.18.0.4:5432/mlflow"   --default-artifact-root s3://mlflows3/artifacts   --host 0.0.0.0   --serve-artifacts
+
+ExecStopPost=/bin/echo "MLflow process stopped" >> /home/estudiante/mlflow.log
+
+[Install]
+WantedBy=multi-user.target
+```
+
+### 3.2 **Iniciar el servicio de MLflow con `systemd`**
+
+1. **Recargar el archivo de servicio** para que **systemd** reconozca cualquier cambio realizado:
+
+   ```bash
+   sudo systemctl daemon-reload
+   ```
+
+2. **Iniciar el servicio de MLflow**:
+
+   ```bash
+   sudo systemctl start ml_flow_serv.service
+   ```
+
+3. **Verificar el estado del servicio**:
+
+   Para verificar que **MLflow** se está ejecutando correctamente, puedes comprobar su estado con:
+
+   ```bash
+   sudo systemctl status ml_flow_serv.service
+   ```
+
+4. **Ver los logs de **MLflow**:
+
+   Si necesitas verificar los logs de **MLflow** para asegurarte de que todo está funcionando bien, puedes hacerlo con:
+
+   ```bash
+   sudo journalctl -u ml_flow_serv.service -f
+   ```
+
+### 3.3 **Detener el servicio de MLflow**
+
+Si necesitas detener el servicio de **MLflow**, puedes hacerlo con:
+
+```bash
+sudo systemctl stop ml_flow_serv.service
+```
+
+---
+
+## 4. **Problema Actual**
+
+A pesar de que la arquitectura de **MLflow**, **MinIO** y **PostgreSQL** parece estar configurada correctamente, actualmente estamos enfrentando un problema relacionado con la ubicación y el almacenamiento de los experimentos y artefactos:
+
+### 4.1 **Problema de Ubicación de los Experimentos**
+
+Los experimentos de **MLflow** se están guardando en el directorio local `train_models/mlruns`, en lugar del directorio global `mlruns` (dentro de la raíz del proyecto). Esto se debe a que **MLflow** está apuntando a `train_models/mlruns` debido a la configuración en el servicio o en el código de los notebooks.
+
+### 4.2 **Solución Propuesta**
+
+Se propuso la siguiente solución:
+
+1. **Modificar la configuración de `MLflow`** para que apunte al directorio correcto de experimentos:
+   - Configurar la variable de entorno `MLFLOW_TRACKING_URI` en el archivo de servicio **MLflow** (`ml_flow_serv.service`) para apuntar a `file:///home/estudiante/MLOPS_Taller4/mlruns`.
+
+2. **Verificar la conexión de **MLflow** con **MinIO** para almacenar los artefactos correctamente**:
+   - Asegurarse de que los artefactos se estén guardando en el bucket **MinIO** `mlflows3/artifacts` mediante la configuración correcta de `--default-artifact-root s3://mlflows3/artifacts`.
+
+3. **Posibles Consecuencias**:
+   - Aunque los experimentos previos ya no se moverán automáticamente, se pueden seguir utilizando las configuraciones actuales para registrar nuevos experimentos correctamente.
+   - Los artefactos existentes en **MinIO** seguirán estando disponibles en el bucket `mlflows3/artifacts`.
+
+### 4.3 **Próximos Pasos**
+
+- Verificar la correcta integración entre **MLflow** y **MinIO** para asegurar que los artefactos nuevos se registren correctamente en el bucket S3.
+- Asegurar que **MLflow** esté guardando tanto los experimentos como los artefactos en las ubicaciones correctas, ya sea localmente o en **MinIO**.
+
+---
+
+### Conclusión
+
+Este repositorio implementa una arquitectura básica para **MLOps** utilizando **MLflow**, **MinIO** y **PostgreSQL**. Actualmente, estamos abordando problemas relacionados con la ubicación de los experimentos y el almacenamiento de artefactos en **MinIO**. Con los cambios en el archivo de servicio y en las configuraciones, este sistema debería funcionar correctamente, permitiendo un flujo de trabajo eficiente para el seguimiento de experimentos, el almacenamiento de modelos y la gestión de artefactos.
