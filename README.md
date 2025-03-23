@@ -169,4 +169,4 @@ Los servicios funcionan correctamente pero no logracmos realizar la inferencia d
 
 ### Conclusión
 
-Este repositorio implementa una arquitectura básica para **MLOps** utilizando **MLflow**, **MinIO** y **PostgreSQL**. Actualmente, estamos abordando problemas relacionados con la ubicación de los experimentos y el almacenamiento de artefactos en **MinIO**. Con los cambios en el archivo de servicio y en las configuraciones, este sistema debería funcionar correctamente, permitiendo un flujo de trabajo eficiente para el seguimiento de experimentos, el almacenamiento de modelos y la gestión de artefactos.
+Este repositorio implementa una arquitectura básica para **MLOps** utilizando **MLflow**, **MinIO** y **PostgreSQL**. Actualmente, estamos abordando con la inferencia del modelo a traves del **API**.
